@@ -1,0 +1,25 @@
+ENPM663: Building a Manufacturing Robot Software System
+
+RWA4
+
+Creator-> group 6
+
+Method to build the required packages:
+
+-> colcon build --packages-select competitor_interfaces
+-> colcon build --packages-select group6
+-> colcon build --packages-select rqt_joint_trajectory_controller
+
+Method to run the package:
+
+To run the package use the following commands strictly in the given order:
+
+-> ros2 launch ariac_gazebo ariac.launch.py trial_name:=rwa4 competitor_pkg:=group6 sensor_config:=group6_sensors
+-> ros2 launch ariac_moveit_config ariac_robots_moveit.launch.py
+-> ros2 launch group6 group6.launch.py
+
+Notes:
+1. Parts if placed in the bins on the back are not yet handled.
+2. Tray required for Kitting might be used for combined task since it is not known in advance.
+3. Picking pumps from bins 1, 5 and 6 is not consistent (roughly it is successful 50% of the attepmts).
+

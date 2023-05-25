@@ -1,0 +1,87 @@
+sensors:
+  right_bins_camera:
+    type: advanced_logical_camera
+    visualize_fov: true
+    pose:
+      xyz: [-2.286, 2.96, 1.8]
+      rpy: [pi, pi/2, 0]
+
+  left_bins_camera:
+    type: advanced_logical_camera
+    visualize_fov: true
+    pose:
+      xyz: [-2.286, -2.96, 1.8]
+      rpy: [pi, pi/2, 0]
+
+  kts1_camera:
+    type: advanced_logical_camera
+    visualize_fov: true
+    pose:
+      xyz: [-1.3, -5.8, 1.8]
+      rpy: [pi, pi/2, pi/2]
+  
+  kts2_camera:
+    type: advanced_logical_camera
+    visualize_fov: true
+    pose:
+      xyz: [-1.3, 5.8, 1.8]
+      rpy: [pi, pi/2, -pi/2]
+      
+  conveyor_camera:
+    type: advanced_logical_camera
+    visualize_fov: true
+    pose:
+      xyz: [-0.563, 3.312677, 1.934958]
+      rpy: [pi, pi/2, 0]
+      
+  # breakbeam:
+  #    type: break_beam
+  #    visualize_fov: true
+  #    pose:
+  #      xyz: [-0.36, 3.5, 0.88]
+  #      rpy: [0, 0, pi]
+  
+# CONVEYOR CAMERAS
+  basic_logical_camera_conveyor:
+      visualize_fov: true
+      type: basic_logical_camera
+      pose:
+          xyz: [-0.563, 3.312677, 1.934958]
+          rpy: [pi, pi/2, 0]
+ 
+  rgb_camera_conveyor:
+      type: rgb_camera
+      visualize_fov: false
+      pose:
+          xyz: [-0.563, 3.312677, 1.934958]
+          rpy: [pi, pi/2, 0]
+
+# # BINS 12 CAMERAS  
+#   basic_logical_camera_bins12:
+#       visualize_fov: true
+#       type: basic_logical_camera
+#       pose:
+#           xyz: [-2.286, 2.96, 1.8]
+#           rpy: [pi, pi/2, 0]
+
+#   rgb_camera_bins12:
+#       type: rgb_camera
+#       visualize_fov: false
+#       pose:
+#           xyz: [-2.286, 2.96, 1.8]
+#           rpy: [pi, pi/2, 0]
+
+# # BINS 34 CAMERAS
+#   basic_logical_camera_bins34:
+#       visualize_fov: true
+#       type: basic_logical_camera
+#       pose:
+#           xyz: [-2.286, 2.96, 1.8]
+#           rpy: [pi, pi/2, 0]
+
+#   rgb_camera_bins34:
+#       type: rgb_camera
+#       visualize_fov: false
+#       pose:
+#           xyz: [-2.286, 2.96, 1.8]
+#           rpy: [pi, pi/2, 0]

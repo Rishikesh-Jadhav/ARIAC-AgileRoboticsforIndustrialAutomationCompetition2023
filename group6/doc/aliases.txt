@@ -1,0 +1,4 @@
+alias start_ariac='ros2 launch ariac_gazebo ariac.launch.py trial_name:=lecture7 competitor_pkg:=lecture7 sensor_config:=sensors'
+alias start_moveit='ros2 launch ariac_moveit_config ariac_robots_moveit.launch.py'
+alias start_rqt='ros2 run rqt_joint_trajectory_controller rqt_joint_trajectory_controller --force-discover'
+alias frames='cd /tmp && ros2 run tf2_tools view_frames && evince frames.pdf'
