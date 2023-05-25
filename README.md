@@ -10,3 +10,5 @@ The package executes the following challenges:
 Dependencies: 
 1. ROS2-galactic (Along with Gazebo and RViz)
 2. Moveit 2
+
+The Package made is based on https://github.com/usnistgov/ARIAC/. The services provided in the competition environment are accessed to complete the tasks given.
