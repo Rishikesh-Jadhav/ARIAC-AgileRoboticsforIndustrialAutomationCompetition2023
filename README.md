@@ -1,5 +1,5 @@
 # AgileRobots-IndustrialAutomationCompetition2023
-Performed ARIAC in ENPM-663(Building a Manufacturing Robotics Software System) course.
+Performed ARIAC by NIST(National Institute of Standards and Technology) in ENPM-663(Building a Manufacturing Robotics Software System) course.
 The repository was made to execute multiple challenges part of ARIAC competition - https://ariac.readthedocs.io/en/latest/
 The package executes the following challenges:
 1. Faulty parts 
