@@ -1,54 +1,53 @@
 # ARIAC - Agile Robotics for Industrial Automation Challenge 2023
+Performed ARIAC by NIST (National Institute of Standards and Technology) in ENPM-663 (Building a Manufacturing Robotics Software System) course.
+The repository was made to execute multiple challenges part of ARIAC competition - [ARIAC Official Documentation](https://ariac.readthedocs.io/en/latest/)
 
-Performed by NIST (National Institute of Standards and Technology) as part of the ENPM-663 (Building a Manufacturing Robotics Software System) course.
-
-This repository has been created to address various challenges presented in the ARIAC competition. You can learn more about the competition [here](https://ariac.readthedocs.io/en/latest/).
-
-## Table of Contents
-1. [Introduction](#introduction)
+# Table of Contents
+1. [ARIAC - Agile Robotics for Industrial Automation Challenge 2023](#ariac---agile-robotics-for-industrial-automation-challenge-2023)
 2. [Competition Overview](#competition-overview)
 3. [Key Components](#key-components)
 4. [Our Team's Work](#our-teams-work)
 5. [Challenges](#challenges)
+   - [Faulty Parts Challenge](#faulty-parts-challenge)
+   - [High-priority Orders Challenge](#high-priority-orders-challenge)
+   - [Insufficient Parts Challenge](#insufficient-parts-challenge)
+   - [Flipped Parts Challenge](#flipped-parts-challenge)
+   - [Dynamic Pick and Place from Conveyor Belt](#dynamic-pick-and-place-from-conveyor-belt)
 6. [Architecture](#architecture)
 7. [Order Parsing and Processing](#order-parsing-and-processing)
 8. [Sensors and Cameras](#sensors-and-cameras)
 9. [Difficulties Encountered](#difficulties-encountered)
 10. [Dependencies](#dependencies)
-11. [Building and Running the Package](#building-and-running-the-package)
+11. [Running the Package](#running-the-package)
 12. [Additional Information](#additional-information)
 
----
+ARIAC is an annual robotics competition that focuses on advancing industrial automation by testing and pushing the capabilities of robotic systems in simulated manufacturing environments. Below, you will find detailed information about ARIAC, its objectives, how it operates, and our team's participation.
 
-## Introduction
+## 🤖 Competition Overview
 
-ARIAC (Agile Robotics for Industrial Automation Challenge) is an annual robotics competition that aims to advance industrial automation by pushing the capabilities of robotic systems in simulated manufacturing environments. This repository showcases our team's participation and solutions for various challenges within the ARIAC competition.
+**Objective**: ARIAC aims to promote the development of robotic systems capable of performing complex tasks in industrial settings autonomously. Participants are challenged to create and deploy robotic solutions that can efficiently and accurately complete various tasks in a simulated factory environment.
 
-## Competition Overview
+**Simulated Environment**: The competition takes place in a simulated factory using the ROS2 and the Gazebo simulator. Participants interact with the factory environment, including robotic arms, sensors, and conveyor belts, through ROS-based control interfaces.
 
-**Objective**: ARIAC challenges participants to develop robotic systems capable of autonomously performing complex tasks in industrial settings. The goal is to create and deploy robots that can efficiently and accurately complete various tasks in a simulated factory environment.
+**Challenges**: ARIAC presents participants with a series of challenges that typically include tasks such as material handling, assembly, quality inspection, and process optimization. Each challenge is designed to test different aspects of robot capabilities, including perception, planning, and control.
 
-**Simulated Environment**: The competition utilizes ROS2 and the Gazebo simulator, providing participants with a realistic platform to interact with factory elements such as robotic arms, sensors, and conveyor belts.
+**Scoring**: Participants were evaluated based on their ability to complete tasks accurately and efficiently. Scoring was determined by factors such as task completion time, accuracy, and resource utilization. The team with the highest score wins.
 
-**Challenges**: ARIAC presents participants with diverse challenges, including material handling, assembly, quality inspection, and process optimization. These challenges test perception, planning, and control capabilities.
+## 🛠️ Key Components
 
-**Scoring**: Teams are evaluated based on task completion time, accuracy, and resource utilization. The team with the highest score wins.
+ARIAC involved several key components, each contributing to the overall challenge:
 
-## Key Components
+1. **Simulation Environment**: The factory environment is simulated using Gazebo, providing a realistic yet safe platform for testing and development. We wrote a competition control software to operate within this simulation.
 
-ARIAC involves several key components:
+2. **Tasks and Challenges**: ARIAC includes a variety of tasks and challenges that require robots to perform actions like picking and placing objects, assembling components, inspecting products, and optimizing manufacturing processes.
 
-1. **Simulation Environment**: The factory environment is simulated using Gazebo, providing a realistic testing and development platform. We developed competition control software to operate within this simulation.
+3. **ROS Control Interfaces**: We used ROS2 to interface with and control the robots and sensors. ROS2 provides a standardized framework for robotic software development.
 
-2. **Tasks and Challenges**: ARIAC includes various tasks like picking and placing objects, assembling components, inspecting products, and optimizing processes.
+4. **Scoring System**: A scoring system calculates the performance of each team based on task completion, efficiency, and accuracy. This system determines the winners of the competition.
 
-3. **ROS Control Interfaces**: We used ROS2 to interface with and control robots and sensors. ROS2 offers a standardized framework for robotic software development.
+## 🌟 Our Team's Work
 
-4. **Scoring System**: A scoring system calculates team performance based on task completion, efficiency, and accuracy, determining competition winners.
-
-## Our Team's Work
-
-Our team, composed of Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg, Nishant Pandey, and Saketh Banagiri, participated in the 2023 ARIAC competition as "Group6." Here's an overview of our work:
+Our team, consisting of members Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg, Nishant Pandey and Saketh Banagiri, participated in the ARIAC competition during 2023 in our ENPM663 class. Here's an overview of our work:
 
 - **Team Name**: Group6
 - **Team Members**:
@@ -58,79 +57,88 @@ Our team, composed of Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg, Nishant 
   - Nishant Pandey
   - Saketh Banagiri
 
-### Highlights of Our Work
+### Here are some highlights of our work:
 
 #### Task 1: Material Handling
 
-Our robotic system excelled in dynamically picking and placing objects from conveyor belts and bins, demonstrating advanced control algorithms for kitting tasks with precision and efficiency.
+In this challenge, our robotic system demonstrated exceptional material handling capabilities. We successfully picked and placed objects from conveyor belts **dynamically** and bins to complete kitting tasks with high precision and efficiency, showcasing our advanced control algorithms.
 
 #### Task 2: Assembly
 
-We achieved exceptional accuracy in the assembly task, where the gantry robot assembled complex components. Real-time feedback using sensors and meticulous planning contributed to our success.
+Our package excelled in the assembly task, where the gantry robot required to assemble complex components. Through meticulous planning and real-time feedback using sensors, we achieved perfect assembly accuracy in the competition.
 
 #### Task 3: Quality Inspection
 
-Our robotic vision system performed admirably in quality inspection. It proactively identified defective parts, replaced them, and ensured task completion without compromising quality.
+Quality inspection is crucial in manufacturing, and our robotic vision system shone in this area. Our package was agile enough to call the services for performing QI to get rid of defective parts and replace them before completing the task. 
 
-## Challenges
+## Agility Challenges
 
-The ARIAC competition presented several challenges, each requiring specific solutions. Here's an overview of the challenges we faced:
+The ARIAC competition presented several Agility challenges, including:
 
-1. **Faulty Parts Challenge**: Detecting and handling unsuitable parts by initiating quality checks to ensure high-quality kits.
+1. **Faulty Parts Challenge**: The Faulty Parts Challenge revolves around detecting and managing parts that are deemed unsuitable for use in the competition. The primary objective is to leverage the quality checker service to identify faulty parts and subsequently replace them with new ones.
 
-2. **High-priority Orders Challenge**: Fulfilling high-priority orders before low-priority ones by identifying and prioritizing tasks promptly.
+Within our system, the handling of faulty parts is accomplished by initiating quality checks before any parts are placed on Automated Guided Vehicles (AGVs). If a part is identified as faulty during this process, it is promptly substituted with either an exact matching part or an appropriate alternative. This meticulous approach guarantees that faulty parts do not compromise the overall quality of the assembled kits.
 
-3. **Insufficient Parts Challenge**: Addressing situations with a lack of parts by utilizing alternative components to complete orders without delays.
+2. **High-priority Orders Challenge**: The High-priority Orders Challenge requires participants to fulfill a high-priority order ahead of a low-priority order. In this scenario, the Central Control System (CCS) plays a critical role in identifying high-priority orders and swiftly transitioning between tasks.
 
-4. **Flipped Parts Challenge**: Correcting upside-down parts by using both gantry and floor robots.
+To effectively manage high-priority orders within our package, we maintain two distinct vectors: one for high-priority orders and another for low-priority orders. When a high-priority order is introduced, it is given immediate precedence, and our system is configured to prioritize its execution before addressing low-priority tasks. This prioritization ensures the timely completion of high-priority orders, aligning with the challenge's requirements.
 
-5. **Dynamic Pick and Place from Conveyor Belt**: Efficiently picking parts from a moving conveyor belt by considering relative velocity between the floor robot and conveyor.
+3. **Insufficient Parts Challenge**: The Insufficient Parts Challenge replicates scenarios in which the work cell confronts a shortage of components required to fulfill one or more orders. In this challenge, the Central Control System (CCS) faces the task of recognizing insufficient parts and responding appropriately, which may involve employing alternative parts or submitting orders in an incomplete state.
+
+Our approach to addressing the Insufficient Parts Challenge revolves around the use of an unordered map to meticulously monitor part quantities and their specific locations within the work cell. When the CCS detects a shortage of required parts, the system proactively identifies available alternatives or parts of different colors that can be utilized to ensure order completion without unnecessary delays. This strategic handling of resource shortages optimizes the efficiency of our system when facing the challenge of insufficient parts.
+
+4. **Flipped Parts Challenge**: Flipped parts were the parts upside down. Our CCS had the capability of flipping these parts to the correct orientation. We used both the gantry and floor robot for this task.
+
+5. **Dynamic Pick and Place from Conveyor Belt**: In the context of dynamic pick and place operations from a continuously moving conveyor belt, our system incorporates a sophisticated approach that takes into account the relative velocity between the floor robot and the parts on the conveyor. This method plays a pivotal role in ensuring the precise calculation of pickup zones, thereby facilitating the seamless and efficient retrieval of parts directly from the conveyor. This dynamic approach enhances the accuracy and reliability of our pick and place processes when dealing with items in motion on the conveyor belt.
 
 ## Architecture
 
-Our project architecture revolves around pick-and-place tasks, including kitting and assembly, with the possibility of combined tasks:
+The project's architecture revolves around pick-and-place tasks, specifically kitting and assembly, with the possibility of combined tasks. Here's an overview:
 
-- **Kitting**: Identifying parts on a conveyor belt, picking and placing them in bins, placing empty trays on Automated Guided Vehicles (AGVs), and arranging parts on trays based on kitting requirements. AGVs transport them to the assembly destination.
+- **Kitting**: The robot identifies parts on a conveyor belt using an Advanced Logical Camera. These parts are picked up by the floor robot and placed in bins (empty slots). Empty trays are picked up using a tray gripper and placed on Automated Guided Vehicles (AGVs). The parts from the bins are placed on the trays based on kitting requirements, and AGVs transport them to the assembly destination, taking agility challenges like high-priority orders and faulty parts into account.
 
-- **Assembly**: The ceiling robot picks up parts from trays and inserts them into respective slots.
+- **Assembly**: In the assembly process, the ceiling robot picks up parts from the tray and inserts them into their respective slots.
 
-- **Combined**: Combines kitting and assembly tasks, with the floor robot performing kitting and the ceiling robot handling assembly.
+- **Combined**: This represents a combination of both kitting and assembly tasks, with the floor robot performing kitting tasks and the ceiling robot executing assembly tasks.
 
 ## Order Parsing and Processing
 
-Orders are received and stored in vectors based on priority. The `RoboCircus` node processes these orders, ensuring part sufficiency and optimizing task completion efficiency.
+Orders are received and stored in vectors based on their priority. The `RoboCircus` node processes these orders, ensuring the sufficiency of parts and completing tasks as efficiently as possible. When parts are insufficient, a replacement strategy is applied, either using exact replacements or alternative parts.
 
 ## Sensors and Cameras
 
-Sensors and cameras play a vital role in detecting part type, color, and location. Various cameras, including RGB and Basic Logical Cameras, provide information about parts, while a perception pipeline involving HSV masking determines part color and type.
+Sensors and cameras play a vital role in detecting part type, color, and location within the environment. Different cameras, including RGB and Basic Logical Cameras, are used to provide information about parts' characteristics and positions. A perception pipeline involving HSV masking is used to determine part color and type.
 
 ## Difficulties Encountered
 
-During the project, we encountered challenges with order handling, dynamic pick-and-place tasks, and quality checker service limitations. We addressed these challenges by fine-tuning algorithms, implementing resource management techniques, and ensuring code robustness. Our final demo showcased effective problem-solving and coordination, resulting in a successful demonstration and a full score.
+Throughout the project, several challenges and difficulties were encountered, including issues with order handling, dynamic pick-and-place tasks, and quality checker service limitations. However, the team effectively addressed these challenges by fine-tuning algorithms, implementing resource management techniques, and ensuring robustness in the code. The final demo showcased the team's problem-solving skills and efficient coordination, resulting in a successful demonstration and a full score.
+
+In summary, this project demonstrates a comprehensive approach to tackling the ARIAC competition challenges, combining innovative solutions, efficient algorithms, and effective communication between nodes to achieve agile robotic performance in an industrial environment.
+
+Our collective efforts, innovative solutions, and relentless pursuit of excellence allowed us to secure a prominent position in the ARIAC competition during [Year]. We look forward to continuing our journey in the field of industrial automation and robotics.
 
 ## Dependencies
-
-Our project relies on the following dependencies:
-
-1. ROS2-galactic (including Gazebo and RViz)
+1. ROS2-galactic (Along with Gazebo and RViz)
 2. Moveit 2
 
-## Building and Running the Package
+The Package made is based on [ARIAC Official GitHub Repository](https://github.com/usnistgov/ARIAC/). The services provided in the competition environment are accessed to complete the tasks given.
 
-To build and run the package, follow these commands in order:
+Method to build the required packages:
 
-1. `colcon build --packages-select competitor_interfaces`
-2. `colcon build --packages-select group6`
-3. `colcon build --packages-select rqt_joint_trajectory_controller`
+- `colcon build --packages-select competitor_interfaces`
+- `colcon build --packages-select group6`
+- `colcon build --packages-select rqt_joint_trajectory_controller`
 
-To run the package:
+Method to run the package:
 
-1. `ros2 launch ariac_gazebo ariac.launch.py trial_name:=rwa4 competitor_pkg:=group6 sensor_config:=group6_sensors`
-2. `ros2 launch ariac_moveit_config ariac_robots_moveit.launch.py`
-3. `ros2 launch group6 group6.launch.py`
+To run the package use the following commands strictly in the given order:
 
-## Additional Information
+- `ros2 launch ariac_gazebo ariac.launch.py trial_name:=rwa4 competitor_pkg:=group6 sensor_config:=group6_sensors`
+- `ros2 launch ariac_moveit_config ariac_robots_moveit.launch.py`
+- `ros2 launch group6 group6.launch.py`
 
-For detailed rules, resources, and updates related to ARIAC, please visit the official ARIAC website: [ARIAC Official Website](https://www.nist.gov/el/intelligent-systems-division-73500/advanced-robotics-industrial-automation-challenge-ariac).
+## 📄 Additional Information
 
-ARIAC offers a fantastic opportunity for researchers and robotics enthusiasts to showcase their skills, advance industrial automation,
+For more detailed information about ARIAC, including rules, resources, and updates, please visit the official ARIAC website: [ARIAC Official Website](https://www.nist.gov/el/intelligent-systems-division-73500/advanced-robotics-industrial-automation-challenge-ariac).
+
+ARIAC represents an exciting opportunity for researchers and robotics enthusiasts to showcase their skills, advance the field of industrial automation, and explore the potential of robotic systems in real-world manufacturing scenarios.
