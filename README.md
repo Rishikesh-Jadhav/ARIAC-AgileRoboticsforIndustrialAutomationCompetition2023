@@ -8,11 +8,11 @@ The repository was made to execute multiple challenges part of ARIAC competition
 3. [Key Components](#key-components)
 4. [Our Team's Work](#our-teams-work)
 5. [Agility Challenges](#agility-challenges)
-   - Faulty Parts Challenge
-   - High-priority Orders Challenge
-   - [Insufficient Parts Challenge](#insufficient-parts-challenge)
-   - [Flipped Parts Challenge](#flipped-parts-challenge)
-   - [Dynamic Pick and Place from Conveyor Belt](#dynamic-pick-and-place-from-conveyor-belt)
+      - Faulty Parts Challenge
+      - High-priority Orders Challenge
+      - [Insufficient Parts Challenge](#insufficient-parts-challenge)
+      - [Flipped Parts Challenge](#flipped-parts-challenge)
+      - [Dynamic Pick and Place from Conveyor Belt](#dynamic-pick-and-place-from-conveyor-belt)
 6. [Architecture](#architecture)
 7. [Order Parsing and Processing](#order-parsing-and-processing)
 8. [Sensors and Cameras](#sensors-and-cameras)
