@@ -4,7 +4,7 @@ The repository was made to execute multiple challenges part of ARIAC competition
 
 # Table of Contents
 1. [ARIAC - Agile Robotics for Industrial Automation Challenge 2023](#ariac---agile-robotics-for-industrial-automation-challenge-2023)
-2. [Competition Overview](#competition-overview)
+2. [Competition Overview](#Competition-Overview)
 3. [Key Components](#key-components)
 4. [Our Team's Work](#our-teams-work)
 5. [Challenges](#challenges)
