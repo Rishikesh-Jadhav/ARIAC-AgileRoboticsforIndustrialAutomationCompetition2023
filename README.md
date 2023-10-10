@@ -7,7 +7,7 @@ The repository was made to execute multiple challenges part of ARIAC competition
 2. [Competition Overview](#competition-overview)
 3. [Key Components](#key-components)
 4. [Our Team's Work](#our-teams-work)
-5. [Challenges](#challenges)
+5. [Agility Challenges](#agility-challenges)
    - [Faulty Parts Challenge](#faulty-parts-challenge)
    - [High-priority Orders Challenge](#high-priority-orders-challenge)
    - [Insufficient Parts Challenge](#insufficient-parts-challenge)
