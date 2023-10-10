@@ -118,6 +118,7 @@ Our collective efforts, innovative solutions, and relentless pursuit of excellen
 1. ROS2-galactic (Along with Gazebo and RViz)
 2. Moveit 2
 
+## Running the Package
 The Package made is based on [ARIAC Official GitHub Repository](https://github.com/usnistgov/ARIAC/). The services provided in the competition environment are accessed to complete the tasks given.
 
 Method to build the required packages:
