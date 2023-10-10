@@ -76,15 +76,12 @@ Quality inspection is crucial in manufacturing, and our robotic vision system sh
 The ARIAC competition presented several Agility challenges, including:
 
 1. **Faulty Parts Challenge**: The Faulty Parts Challenge revolves around detecting and managing parts that are deemed unsuitable for use in the competition. The primary objective is to leverage the quality checker service to identify faulty parts and subsequently replace them with new ones.
-
 Within our system, the handling of faulty parts is accomplished by initiating quality checks before any parts are placed on Automated Guided Vehicles (AGVs). If a part is identified as faulty during this process, it is promptly substituted with either an exact matching part or an appropriate alternative. This meticulous approach guarantees that faulty parts do not compromise the overall quality of the assembled kits.
 
 2. **High-priority Orders Challenge**: The High-priority Orders Challenge requires participants to fulfill a high-priority order ahead of a low-priority order. In this scenario, the Central Control System (CCS) plays a critical role in identifying high-priority orders and swiftly transitioning between tasks.
-
 To effectively manage high-priority orders within our package, we maintain two distinct vectors: one for high-priority orders and another for low-priority orders. When a high-priority order is introduced, it is given immediate precedence, and our system is configured to prioritize its execution before addressing low-priority tasks. This prioritization ensures the timely completion of high-priority orders, aligning with the challenge's requirements.
 
 3. **Insufficient Parts Challenge**: The Insufficient Parts Challenge replicates scenarios in which the work cell confronts a shortage of components required to fulfill one or more orders. In this challenge, the Central Control System (CCS) faces the task of recognizing insufficient parts and responding appropriately, which may involve employing alternative parts or submitting orders in an incomplete state.
-
 Our approach to addressing the Insufficient Parts Challenge revolves around the use of an unordered map to meticulously monitor part quantities and their specific locations within the work cell. When the CCS detects a shortage of required parts, the system proactively identifies available alternatives or parts of different colors that can be utilized to ensure order completion without unnecessary delays. This strategic handling of resource shortages optimizes the efficiency of our system when facing the challenge of insufficient parts.
 
 4. **Flipped Parts Challenge**: Flipped parts were the parts upside down. Our CCS had the capability of flipping these parts to the correct orientation. We used both the gantry and floor robot for this task.
