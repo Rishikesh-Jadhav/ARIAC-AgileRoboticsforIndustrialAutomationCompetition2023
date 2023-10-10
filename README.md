@@ -33,7 +33,7 @@ ARIAC is an annual robotics competition that focuses on advancing industrial aut
 
 **Scoring**: Participants were evaluated based on their ability to complete tasks accurately and efficiently. Scoring was determined by factors such as task completion time, accuracy, and resource utilization. The team with the highest score wins.
 
-## 🛠️ Key Components
+## Key Components
 
 ARIAC involved several key components, each contributing to the overall challenge:
 
@@ -45,7 +45,7 @@ ARIAC involved several key components, each contributing to the overall challeng
 
 4. **Scoring System**: A scoring system calculates the performance of each team based on task completion, efficiency, and accuracy. This system determines the winners of the competition.
 
-## 🌟 Our Team's Work
+## Our Team's Work
 
 Our team, consisting of members Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg, Nishant Pandey and Saketh Banagiri, participated in the ARIAC competition during 2023 in our ENPM663 class. Here's an overview of our work:
 
