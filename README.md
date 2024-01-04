@@ -60,6 +60,8 @@ Our team, consisting of members Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg
   - Nishant Pandey
   - Saketh Banagiri
 
+[![Project Final Demo](link-to-thumbnail-image)](link-to-youtube-video)
+
 ### Here are some highlights of our work:
 
 #### Task 1: Material Handling
