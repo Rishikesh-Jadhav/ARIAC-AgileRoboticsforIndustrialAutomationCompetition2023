@@ -2,7 +2,6 @@
 Performed ARIAC by NIST (National Institute of Standards and Technology) in ENPM-663 (Building a Manufacturing Robotics Software System) course.
 The repository was made to execute multiple challenges part of ARIAC competition - [ARIAC Official Documentation](https://ariac.readthedocs.io/en/latest/)
 
-https://github.com/Rishikesh-Jadhav/ARIAC-AgileRoboticsforIndustrialAutomationCompetition2023/blob/main/images/Screenshot%202023-03-21%20224033.png
 #### ARIAC WORKFLOOR
 ![ARIAC WORKFLOOR](images/Screenshot%202023-03-21%20224033.png)
 
