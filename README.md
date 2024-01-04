@@ -2,6 +2,9 @@
 Performed ARIAC by NIST (National Institute of Standards and Technology) in ENPM-663 (Building a Manufacturing Robotics Software System) course.
 The repository was made to execute multiple challenges part of ARIAC competition - [ARIAC Official Documentation](https://ariac.readthedocs.io/en/latest/)
 
+#### ARIAC WORKFLOOR
+![ARIAC WORKFLOOR](images/kmeans_output.png)
+
 # Table of Contents
 1. [ARIAC - Agile Robotics for Industrial Automation Challenge 2023](#ariac---agile-robotics-for-industrial-automation-challenge-2023)
 2. [Competition Overview](#competition-overview)
