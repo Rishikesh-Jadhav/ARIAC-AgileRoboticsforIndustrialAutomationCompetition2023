@@ -60,7 +60,7 @@ Our team, consisting of members Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg
   - Nishant Pandey
   - Saketh Banagiri
     
-[![Project Final Demo](ariac%20thumbanail.png)](https://youtu.be/BlXz8uKmXrw)
+[![Project Final Demo](https://github.com/Rishikesh-Jadhav/ARIAC-AgileRoboticsforIndustrialAutomationCompetition2023/blob/main/images/ariac%20thumbanail.png)](https://youtu.be/BlXz8uKmXrw)
 
 ### Here are some highlights of our work:
 
