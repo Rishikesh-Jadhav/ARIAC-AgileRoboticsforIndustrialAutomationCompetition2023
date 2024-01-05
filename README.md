@@ -50,7 +50,7 @@ ARIAC involved several key components, each contributing to the overall challeng
 
 ## Our Team's Work
 
-Our team, consisting of members Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg, Nishant Pandey and Saketh Banagiri, participated in the ARIAC competition during 2023 in our ENPM663 class. Here's an overview of our work:
+Our team, consisting of members Myself, Vishal Sivakumar, Abhinav Garg, Nishant Pandey and Saketh Banagiri, participated in the ARIAC competition during 2023 in our ENPM663 class. Here's an overview of our work:
 
 - **Team Name**: Group6
 - **Team Members**:
@@ -59,10 +59,11 @@ Our team, consisting of members Rishikesh Jadhav, Vishal Sivakumar, Abhinav Garg
   - Abhinav Garg
   - Nishant Pandey
   - Saketh Banagiri
-    
+
+### Project Final Demo
 [![Project Final Demo](https://i9.ytimg.com/vi/BlXz8uKmXrw/sddefault.jpg?v=659743ae&sqp=CJCp3awG&rs=AOn4CLAbUpHAwYB8X6O342t2J0WEdnnGhw)](https://www.youtube.com/watch?v=BlXz8uKmXrw)
 
-
+    
 ### Here are some highlights of our work:
 
 #### Task 1: Material Handling
