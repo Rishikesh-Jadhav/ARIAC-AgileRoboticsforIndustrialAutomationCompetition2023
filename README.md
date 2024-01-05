@@ -60,7 +60,7 @@ Our team, consisting of members Myself, Vishal Sivakumar, Abhinav Garg, Nishant 
   - Nishant Pandey
   - Saketh Banagiri
 
-### Project Final Demo (Youtube link below)
+### In class Demo (Youtube link below)
 [![Project Final Demo](https://img.youtube.com/vi/BlXz8uKmXrw/0.jpg)](https://www.youtube.com/watch?v=BlXz8uKmXrw)
     
 ### Here are some highlights of our work:
