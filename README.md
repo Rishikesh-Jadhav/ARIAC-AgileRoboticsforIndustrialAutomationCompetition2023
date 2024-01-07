@@ -60,10 +60,16 @@ Our team, consisting of members Myself, Vishal Sivakumar, Abhinav Garg, Nishant 
   - Nishant Pandey
   - Saketh Banagiri
 
-### In class Demo (Youtube link below)
-[![Project Final Demo](https://img.youtube.com/vi/BlXz8uKmXrw/0.jpg)](https://www.youtube.com/watch?v=BlXz8uKmXrw)
-    
 ### Here are some highlights of our work:
+
+#### Combine task with High priority orders (Youtube link below)
+[![High priority orders](https://img.youtube.com/vi/RfVZKmS1iNc/0.jpg)](https://www.youtube.com/watch?v=RfVZKmS1iNc)
+
+#### Kitting task (Youtube link below)
+[![Kitting task](https://img.youtube.com/vi/dbDO6IsSBPg/0.jpg)](https://www.youtube.com/watch?v=dbDO6IsSBPg)
+
+#### In Class Final Demo (Youtube link below)
+[![Project Final Demo](https://img.youtube.com/vi/BlXz8uKmXrw/0.jpg)](https://www.youtube.com/watch?v=BlXz8uKmXrw)
 
 #### Task 1: Material Handling
 
