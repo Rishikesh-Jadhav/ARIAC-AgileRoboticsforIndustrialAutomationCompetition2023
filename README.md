@@ -124,7 +124,7 @@ Throughout the project, several challenges and difficulties were encountered, in
 
 In summary, this project demonstrates a comprehensive approach to tackling the ARIAC competition challenges, combining innovative solutions, efficient algorithms, and effective communication between nodes to achieve agile robotic performance in an industrial environment.
 
-Our collective efforts, innovative solutions, and relentless pursuit of excellence allowed us to secure a prominent position in the ARIAC competition during [Year]. We look forward to continuing our journey in the field of industrial automation and robotics.
+Our collective efforts, innovative solutions, and relentless pursuit of excellence allowed us to have a great experience in the ARIAC competition. We look forward to continuing our journey in the field of industrial automation and robotics.
 
 ## Dependencies
 1. ROS2-galactic (Along with Gazebo and RViz)
